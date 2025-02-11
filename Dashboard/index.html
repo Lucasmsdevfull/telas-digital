@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://unpkg.com/@tailwindcss/browser@4"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+        integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    <section>
+        <header class="flex items-center justify-between p-[20px]">
+            <img src="https://images.vexels.com/media/users/3/137724/isolated/preview/c30bc541ea2fe03747c7f569bee90089-minimalismo-infinity-logo-infinite.png"
+                alt="Logo" class="w-[40px]">
+            <div class="border rounded-sm border-gray-300 w-[400px] flex items-center px-[10px] py-[5px] gap-4">
+                <i class="fa-solid fa-magnifying-glass"></i>
+                <input class="outline-0 w-full text-xs" type="text" placeholder="Search for projects">
+            </div>
+            <div class="flex items-center justify-between gap-4 text-[#A272F6] text-xl">
+                <i
+                    class="cursor-pointer fa-solid fa-moon transition delay-150 duration-300 ease-in-out hover:-translate-y-1 hover:scale-110"></i>
+                <i
+                    class="cursor-pointer fa-solid fa-bell transition delay-150 duration-300 ease-in-out hover:-translate-y-1 hover:scale-110"></i>
+                <img class="cursor-pointer w-[40px] rounded-full transition delay-150 duration-300 ease-in-out hover:-translate-y-1 hover:scale-110"
+                    src="https://github.com/Lucasmsdevfull.png" alt="Foto do usuário">
+            </div>
+        </header>
+        <section class="flex h-screen">
+            <aside class="w-[20%]">
+                <nav>
+                    <ul>
+                        <li
+                            class="flex flex-col transition delay-150 duration-300 ease-in-out hover:-translate-y-1 hover:scale-110 hover:border-l-4 border-l-[#7F3DF4] border-l-4">
+                            <a href="" class="flex items-center gap-4 px-[20px] py-[15px] text-black " id="selecionado">
+                                <i class="fa-solid fa-house"></i>
+                                <p class="px-0.5">Dashboard</p>
+                            </a>
+                        </li>
+                        <li
+                            class="flex flex-col transition delay-150 duration-300 ease-in-out hover:-translate-y-1 hover:scale-110 hover:border-l-4 border-l-[#7F3DF4]">
+                            <a href="" class="flex items-center gap-4 px-[20px] py-[15px] text-black" name="Forms">
+                                <i class="fa-regular fa-clipboard text-gray-400"></i>
+                                <p class="text-gray-400 px-2">Forms</p>
+                            </a>
+                        </li>
+                        <li
+                            class="flex flex-col transition delay-150 duration-300 ease-in-out hover:-translate-y-1 hover:scale-110 hover:border-l-4 border-l-[#7F3DF4]">
+                            <a href="" class="flex items-center gap-4 px-[20px] py-[15px] text-gray-500" name="Cards">
+                                <i class="fa-regular fa-folder text-gray-400"></i>
+                                <p class="text-gray-400 px-1">Cards</p>
+                            </a>
+                        </li>
+                        <li
+                            class="flex flex-col transition delay-150 duration-300 ease-in-out hover:-translate-y-1 hover:scale-110 hover:border-l-4 border-l-[#7F3DF4]">
+                            <a href="" class="flex items-center gap-4 px-[20px] py-[15px] text-gray-500" name="botões">
+                                <i class="fa-solid fa-arrow-pointer text-gray-400"></i>
+                                <p class="text-gray-400 px-2">Buttons</p>
+                            </a>
+                        </li>
+                        <li
+                            class="flex flex-col transition delay-150 duration-300 ease-in-out hover:-translate-y-1 hover:scale-110 hover:border-l-4 border-l-[#7F3DF4]">
+                            <a href="" class="flex items-center gap-4 px-[20px] py-[15px] text-gray-500" name="Modals">
+                                <i class="fa-regular fa-copy text-gray-400"></i>
+                                <p class="text-gray-400 px-1">Modals</p>
+                            </a>
+                        </li>
+                        <li
+                            class="flex flex-col transition delay-150 duration-300 ease-in-out hover:-translate-y-1 hover:scale-110 hover:border-l-4 border-l-[#7F3DF4]">
+                            <a href="" class="flex items-center gap-4 px-[20px] py-[15px] text-gray-500">
+                                <i class="fa-solid fa-bars text-gray-400"></i>
+                                <p class="text-gray-400 px-1">Table</p>
+                            </a>
+                        </li>
+                        <li
+                            class="flex flex-col transition delay-150 duration-300 ease-in-out hover:-translate-y-1 hover:scale-110 hover:border-l-4 border-l-[#7F3DF4]">
+                            <a href="" class="flex items-center justify-between px-[20px] py-[15px] text-gray-500">
+                                <div class="flex items-center gap-4">
+                                    <i class="fa-solid fa-table text-gray-400"></i>
+                                    <p class="text-gray-400  px-1">Pages</p>
+                                </div>
+                                <i class="fa-solid fa-chevron-down"></i>
+
+                            </a>
+                        </li>
+                    </ul>
+                </nav>
+
+                <div class="flex items-center justify-center">
+                    <button
+                        class="transition delay-150 duration-300 ease-in-out hover:-translate-y-1 hover:scale-110 mt-4 bg-[#7F3DF4] text-white px-[30px] py-[8px] rounded-lg cursor-pointer">
+                        <p>Create account +</p>
+                    </button>
+                </div>
+            </aside>
+
+            <main class="bg-[#F4F5F7] w-[80%] rounded-tl-lg inset-shadow-sm shadow-xl flex flex-col px-8">
+                <section class="py-4" name="Superior principal">
+                    <h1 class="font-bold text-[24px]">Dashboard</h1>
+                </section>
+
+                <section class="flex items-center rounded-lg inset-shadow-sm shadow-xl p-2 bg-[#7F3DF4]"
+                    name="Link Github">
+                    <i class="fa-solid fa-star flex text-white mx-5"></i>
+                    <p class="text-white"> Star this project on Github</p>
+
+                </section>
+
+                <section class="flex items-center justify-between text-[12px] font-bold py-6" name="Cards">
+
+                    <section class="" name="total-cliente">
+                        <section
+                            class="flex items-center p-4  gap-2 border-1 border-gray-300 bg-white rounded w-60 h-20">
+                            <div class="" name="circle">
+                                <div class="flex items-center justify-center rounded-full p-4 bg-orange-100 w-2 h-2">
+                                    <i class="fa-solid fa-users text-orange-700 "></i>
+                                </div>
+                            </div>
+                            <section class="flex flex-col">
+                                <p class="">Total customers</p>
+                                <p class="">12.000</p>
+                            </section>
+                        </section>
+                    </section>
+
+                    <section class="" name="total-cliente">
+                        <section
+                            class="flex items-center p-4  gap-2 border-1 border-gray-300 bg-white rounded w-60 h-20">
+                            <div class="" name="circle">
+                                <div class="flex items-center justify-center rounded-full p-4 bg-orange-100 w-2 h-2">
+                                    <i class="fa-solid fa-money-bills text-green-700 "></i>
+                                </div>
+                            </div>
+                            <section class="flex flex-col">
+                                <p class="">Account Balence</p>
+                                <p class="">$ 1.000,00</p>
+                            </section>
+                        </section>
+                    </section>
+
+                    <section class="" name="total-cliente">
+                        <section
+                            class="flex items-center p-4  gap-2 border-1 border-gray-300 bg-white rounded w-60 h-20">
+                            <div class="" name="circle">
+                                <div class="flex items-center justify-center rounded-full p-4 bg-orange-100 w-2 h-2">
+                                    <i class="fa-solid fa-cart-shopping text-blue-500"></i>
+                                </div>
+                            </div>
+                            <section class="flex flex-col">
+                                <p class="">New Sales</p>
+                                <p class="">3075</p>
+                            </section>
+                        </section>
+                    </section>
+
+                    <section class="" name="total-cliente">
+                        <section
+                            class="flex items-center p-4  gap-2 border-1 border-gray-300 bg-white rounded w-60 h-20">
+                            <div class="" name="circle">
+                                <div class="flex items-center justify-center rounded-full p-4 bg-orange-100 w-2 h-2">
+                                    <i class="fa-solid fa-comment-dots text-green-700"></i>
+                                </div>
+                            </div>
+                            <section class="flex flex-col">
+                                <p class="">Contacts pendentes</p>
+                                <p class="">78</p>
+                            </section>
+                        </section>
+                    </section>
+                </section>
+
+                <div class="rounded-sm border border-gray-400 text-left " name="Tabela">
+                    <table class="w-full">
+                        <thead class="border-b border-gray-400 rounded-sm">
+                            <tr class="">
+                                <th class="bg-gray-200 rounded-tl-sm px-3 py-2">Cliente</th>
+                                <th class="bg-gray-200 px-3 py-2">Valor</th>
+                                <th class="bg-gray-200 px-3 py-2">Status</th>
+                                <th class="bg-gray-200 rounded-tr-sm px-3 py-2">Data</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td class="flex items-center grid grid-flow-col grid-cols-[50px_1fr_2fr]">
+                                    <img class="flex items-center row-span-3 rounded-full flex-col"
+                                        src="https://github.com/Lucasmsdevfull.png" alt="Foto do Perfil">
+                                    <div class="col-span-2 flex bg-sky-500" name="Nome_Cliente">Lucas Mendonça</div>
+                                    <div class="col-span-2 flex row-span-2 bg-sky-500" name="Cargo">Gerente de Projetos
+                                    </div>
+                                </td>
+                                <td class="px-3 py-2">Linha1Col2</td>
+                                <td class="px-3 py-2">Linha1Col3</td>
+                                <td class="px-3 py-2">Linha1Col4</td>
+                            </tr>
+
+                            <tr>
+                                <td class="px-3 py-2">Linha2Col1</td>
+                                <td class="px-3 py-2">Linha2Col2</td>
+                                <td class="px-3 py-2">Linha2Col3</td>
+                                <td class="px-3 py-2">Linha2Col4</td>
+                            </tr>
+
+                            <tr>
+                                <td class="px-3 py-2">Linha3Col1</td>
+                                <td class="px-3 py-2">Linha3Col2</td>
+                                <td class="px-3 py-2">Linha3Col3</td>
+                                <td class="px-3 py-2">Linha3Col4</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </main>
+
+        </section>
+
+
+
+    </section>
+
+</body>
+
+</html>
