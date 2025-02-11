@@ -16,7 +16,7 @@
         <header class="flex items-center justify-between p-[20px]">
             <img src="https://images.vexels.com/media/users/3/137724/isolated/preview/c30bc541ea2fe03747c7f569bee90089-minimalismo-infinity-logo-infinite.png"
                 alt="Logo" class="w-[40px]">
-            <div class="border rounded-sm border-gray-300 w-[400px] flex items-center px-[10px] py-[5px] gap-4">
+            <div class="border rounded-sm border-gray-300 w-[45%] flex items-center px-[10px] py-[5px] gap-4">
                 <i class="fa-solid fa-magnifying-glass"></i>
                 <input class="outline-0 w-full text-xs" type="text" placeholder="Search for projects">
             </div>
@@ -113,7 +113,7 @@
 
                     <section class="" name="total-cliente">
                         <section
-                            class="flex items-center p-4  gap-2 border-1 border-gray-300 bg-white rounded w-60 h-20">
+                            class="flex items-center p-4  gap-2 border-1 border-gray-300 bg-white rounded w-50 h-20">
                             <div class="" name="circle">
                                 <div class="flex items-center justify-center rounded-full p-4 bg-orange-100 w-2 h-2">
                                     <i class="fa-solid fa-users text-orange-700 "></i>
@@ -128,7 +128,7 @@
 
                     <section class="" name="total-cliente">
                         <section
-                            class="flex items-center p-4  gap-2 border-1 border-gray-300 bg-white rounded w-60 h-20">
+                            class="flex items-center p-4  gap-2 border-1 border-gray-300 bg-white rounded w-50 h-20">
                             <div class="" name="circle">
                                 <div class="flex items-center justify-center rounded-full p-4 bg-orange-100 w-2 h-2">
                                     <i class="fa-solid fa-money-bills text-green-700 "></i>
@@ -143,7 +143,7 @@
 
                     <section class="" name="total-cliente">
                         <section
-                            class="flex items-center p-4  gap-2 border-1 border-gray-300 bg-white rounded w-60 h-20">
+                            class="flex items-center p-4  gap-2 border-1 border-gray-300 bg-white rounded w-50 h-20">
                             <div class="" name="circle">
                                 <div class="flex items-center justify-center rounded-full p-4 bg-orange-100 w-2 h-2">
                                     <i class="fa-solid fa-cart-shopping text-blue-500"></i>
@@ -158,7 +158,7 @@
 
                     <section class="" name="total-cliente">
                         <section
-                            class="flex items-center p-4  gap-2 border-1 border-gray-300 bg-white rounded w-60 h-20">
+                            class="flex items-center p-4  gap-2 border-1 border-gray-300 bg-white rounded w-50 h-20">
                             <div class="" name="circle">
                                 <div class="flex items-center justify-center rounded-full p-4 bg-orange-100 w-2 h-2">
                                     <i class="fa-solid fa-comment-dots text-green-700"></i>
@@ -173,41 +173,85 @@
                 </section>
 
                 <div class="rounded-sm border border-gray-400 text-left " name="Tabela">
-                    <table class="w-full">
-                        <thead class="border-b border-gray-400 rounded-sm">
+                    <table class="w-full text-sm">
+                        <thead class="border-b text-gray-500 border-gray-400 rounded-sm">
                             <tr class="">
-                                <th class="bg-gray-200 rounded-tl-sm px-3 py-2">Cliente</th>
-                                <th class="bg-gray-200 px-3 py-2">Valor</th>
-                                <th class="bg-gray-200 px-3 py-2">Status</th>
-                                <th class="bg-gray-200 rounded-tr-sm px-3 py-2">Data</th>
+                                <th class="bg-gray-200 rounded-tl-sm px-3 py-2 ">Cliente</th>
+                                <th class="bg-gray-200">Valor</th>
+                                <th class="bg-gray-200">Status</th>
+                                <th class="bg-gray-200 rounded-tr-sm">Data</th>
                             </tr>
                         </thead>
                         <tbody>
                             <tr>
-                                <td class="flex items-center grid grid-flow-col grid-cols-[50px_1fr_2fr]">
-                                    <img class="flex items-center row-span-3 rounded-full flex-col"
-                                        src="https://github.com/Lucasmsdevfull.png" alt="Foto do Perfil">
-                                    <div class="col-span-2 flex bg-sky-500" name="Nome_Cliente">Lucas Mendonça</div>
-                                    <div class="col-span-2 flex row-span-2 bg-sky-500" name="Cargo">Gerente de Projetos
-                                    </div>
+                                <td class="flex items-center p-2">
+                                    <section class="flex items-center gap-2">
+                                        <img class="w-[30px] rounded-full" src="https://github.com/Lucasmsdevfull.png"
+                                            alt="Foto do Perfil">
+                                        <div class="">
+                                            <p class="font-bold text-[14px]">Lucas Mendonça</p>
+                                            <p class="text-[10px] text-gray-500">Diretor</p>
+                                        </div>
+                                    </section>
                                 </td>
-                                <td class="px-3 py-2">Linha1Col2</td>
-                                <td class="px-3 py-2">Linha1Col3</td>
-                                <td class="px-3 py-2">Linha1Col4</td>
+                                <td>
+                                    <p class="">$ 9.000,00</p>
+                                </td>
+                                <td>
+                                    <p class="flex justify-center bg-green-200 text-green-700 rounded-full w-[25%]">
+                                        Pago</p>
+                                </td>
+                                <td>
+                                    <p>25/01/2025</p>
+                                </td>
                             </tr>
 
                             <tr>
-                                <td class="px-3 py-2">Linha2Col1</td>
-                                <td class="px-3 py-2">Linha2Col2</td>
-                                <td class="px-3 py-2">Linha2Col3</td>
-                                <td class="px-3 py-2">Linha2Col4</td>
+                                <td class="flex items-center p-2">
+                                    <section class="flex items-center gap-2">
+                                        <img class="w-[30px] rounded-full" src="https://github.com/Lucasmsdevfull.png"
+                                            alt="Foto do Perfil">
+                                        <div class="">
+                                            <p class="font-bold text-[14px]">Lucas Mendonça</p>
+                                            <p class="text-[10px] text-gray-500">Diretor</p>
+                                        </div>
+                                    </section>
+                                </td>
+                                <td>
+                                    <p>$ 7.500,00</p>
+                                </td>
+                                <td>
+                                    <p class="flex justify-center bg-red-200 text-red-400 rounded-full w-[45%]">
+                                        Cancelado</p>
+                                </td>
+                                <td>
+                                    <p>20/01/2025</p>
+                                </td>
                             </tr>
 
                             <tr>
-                                <td class="px-3 py-2">Linha3Col1</td>
-                                <td class="px-3 py-2">Linha3Col2</td>
-                                <td class="px-3 py-2">Linha3Col3</td>
-                                <td class="px-3 py-2">Linha3Col4</td>
+                                <td class="flex items-center p-2">
+                                    <section class="flex items-center gap-2">
+                                        <img class="w-[30px] rounded-full" src="https://github.com/Lucasmsdevfull.png"
+                                            alt="Foto do Perfil">
+                                        <div class="">
+                                            <p class="font-bold text-[14px]">Lucas Mendonça</p>
+                                            <p class="text-[10px] text-gray-500">Diretor</p>
+                                        </div>
+                                    </section>
+                                </td>
+                                <td>
+                                    <p>$ 8.000,00</p>
+                                </td>
+                                <td>
+                                    <p
+                                        class="flex justify-center bg-orange-200 text-orange-400 rounded-full w-[40%]">
+                                        Pendente
+                                    </p>
+                                </td>
+                                <td>
+                                    <p>30/01/2025</p>
+                                </td>
                             </tr>
                         </tbody>
                     </table>
