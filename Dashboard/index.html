@@ -29,7 +29,7 @@
                     src="https://github.com/Lucasmsdevfull.png" alt="Foto do usuário">
             </div>
         </header>
-        <section class="flex h-screen">
+        <section class="flex h-screen flex-wrap">
             <aside class="w-[20%]">
                 <nav>
                     <ul>
@@ -97,86 +97,72 @@
                 </div>
             </aside>
 
-            <main class="bg-[#F4F5F7] w-[80%] rounded-tl-lg inset-shadow-sm shadow-xl flex flex-col px-8">
+            <main class="bg-[#f9fafb] w-[80%] rounded-tl-lg inset-shadow-sm shadow-xl flex flex-col px-8">
+
                 <section class="py-4" name="Superior principal">
                     <h1 class="font-bold text-[24px]">Dashboard</h1>
                 </section>
 
-                <section class="flex items-center rounded-lg inset-shadow-sm shadow-xl p-2 bg-[#7F3DF4]"
+                <div class=" gap-1 flex items-center justify-between rounded-lg inset-shadow-sm shadow-xl p-4 bg-[#7F3DF4] text-white"
                     name="Link Github">
-                    <i class="fa-solid fa-star flex text-white mx-5"></i>
-                    <p class="text-white"> Star this project on Github</p>
+                    <div class="flex items-center">
+                        <i class="fa-solid fa-star flex mx-5"></i>
+                        <p> Star this project on Github</p>
+                    </div>
+                    <a class="mx-2" href="">View more</a>
+                </div>
 
+                <section class="flex items-center text-[12px] font-bold py-6 gap-4 flex-wrap" name="Cards">
+                    <div class="flex items-center p-4 border-1 border-gray-300 bg-white rounded-lg gap-4 flex-1">
+                        <div
+                            class="flex items-center justify-center  text-orange-700 rounded-full p-4 bg-orange-100 w-10 h-10">
+                            <i class="fa-solid fa-users"></i>
+                        </div>
+                        <div class="flex flex-col">
+                            <p class="">Total customers</p>
+                            <b>12.000</b>
+                        </div>
+                    </div>
+
+                    <div class="flex items-center p-4 border-1 border-gray-300 bg-white rounded-lg gap-4 flex-1">
+                        <div
+                            class="flex items-center justify-center  text-green-700 rounded-full p-4 bg-orange-100 w-10 h-10">
+                            <i class="fa-solid fa-money-bills"></i>
+                        </div>
+                        <div class="flex flex-col">
+                            <p class="">Account Balence</p>
+                            <b>$ 1.000,00</b>
+                        </div>
+                    </div>
+
+                    <div class="flex items-center p-4 border-1 border-gray-300 bg-white rounded-lg gap-4 flex-1">
+                        <div
+                            class="flex items-center justify-center  text-blue-500 rounded-full p-4 bg-orange-100 w-10 h-10">
+                            <i class="fa-solid fa-cart-shopping"></i>
+                        </div>
+                        <div class="flex flex-col">
+                            <p class="">New Sales</p>
+                            <b>3075</b>
+                        </div>
+                    </div>
+
+                    <div class="flex items-center p-4 border-1 border-gray-300 bg-white rounded-lg gap-4 flex-1">
+                        <div
+                            class="flex items-center justify-center  text-green-700 rounded-full p-4 bg-orange-100 w-10 h-10">
+                            <i class="fa-solid fa-comment-dots "></i>
+                        </div>
+                        <div class="flex flex-col">
+                            <p class="">Contacts pendentes</p>
+                            <b>78</b>
+                        </div>
+                    </div>
                 </section>
 
-                <section class="flex items-center justify-between text-[12px] font-bold py-6" name="Cards">
-
-                    <section class="" name="total-cliente">
-                        <section
-                            class="flex items-center p-4  gap-2 border-1 border-gray-300 bg-white rounded w-50 h-20">
-                            <div class="" name="circle">
-                                <div class="flex items-center justify-center rounded-full p-4 bg-orange-100 w-2 h-2">
-                                    <i class="fa-solid fa-users text-orange-700 "></i>
-                                </div>
-                            </div>
-                            <section class="flex flex-col">
-                                <p class="">Total customers</p>
-                                <p class="">12.000</p>
-                            </section>
-                        </section>
-                    </section>
-
-                    <section class="" name="total-cliente">
-                        <section
-                            class="flex items-center p-4  gap-2 border-1 border-gray-300 bg-white rounded w-50 h-20">
-                            <div class="" name="circle">
-                                <div class="flex items-center justify-center rounded-full p-4 bg-orange-100 w-2 h-2">
-                                    <i class="fa-solid fa-money-bills text-green-700 "></i>
-                                </div>
-                            </div>
-                            <section class="flex flex-col">
-                                <p class="">Account Balence</p>
-                                <p class="">$ 1.000,00</p>
-                            </section>
-                        </section>
-                    </section>
-
-                    <section class="" name="total-cliente">
-                        <section
-                            class="flex items-center p-4  gap-2 border-1 border-gray-300 bg-white rounded w-50 h-20">
-                            <div class="" name="circle">
-                                <div class="flex items-center justify-center rounded-full p-4 bg-orange-100 w-2 h-2">
-                                    <i class="fa-solid fa-cart-shopping text-blue-500"></i>
-                                </div>
-                            </div>
-                            <section class="flex flex-col">
-                                <p class="">New Sales</p>
-                                <p class="">3075</p>
-                            </section>
-                        </section>
-                    </section>
-
-                    <section class="" name="total-cliente">
-                        <section
-                            class="flex items-center p-4  gap-2 border-1 border-gray-300 bg-white rounded w-50 h-20">
-                            <div class="" name="circle">
-                                <div class="flex items-center justify-center rounded-full p-4 bg-orange-100 w-2 h-2">
-                                    <i class="fa-solid fa-comment-dots text-green-700"></i>
-                                </div>
-                            </div>
-                            <section class="flex flex-col">
-                                <p class="">Contacts pendentes</p>
-                                <p class="">78</p>
-                            </section>
-                        </section>
-                    </section>
-                </section>
-
-                <div class="rounded-sm border border-gray-400 text-left " name="Tabela">
+                <div class="rounded-sm border border-gray-400 text-left" name="Tabela">
                     <table class="w-full text-sm">
                         <thead class="border-b text-gray-500 border-gray-400 rounded-sm">
                             <tr class="">
-                                <th class="bg-gray-200 rounded-tl-sm px-3 py-2 ">Cliente</th>
+                                <th class="bg-gray-200 rounded-tl-sm p-2">Cliente</th>
                                 <th class="bg-gray-200">Valor</th>
                                 <th class="bg-gray-200">Status</th>
                                 <th class="bg-gray-200 rounded-tr-sm">Data</th>
@@ -184,22 +170,23 @@
                         </thead>
                         <tbody>
                             <tr>
-                                <td class="flex items-center p-2">
-                                    <section class="flex items-center gap-2">
+                                <td>
+                                    <div class="flex items-center p-4">
                                         <img class="w-[30px] rounded-full" src="https://github.com/Lucasmsdevfull.png"
                                             alt="Foto do Perfil">
-                                        <div class="">
-                                            <p class="font-bold text-[14px]">Lucas Mendonça</p>
-                                            <p class="text-[10px] text-gray-500">Diretor</p>
+                                        <div>
+                                            <h1 class="font-medium">Lucas Mendonça</h1>
+                                            <p class="text-sm text-gray-400">Diretor</p>
                                         </div>
-                                    </section>
+                                    </div>
                                 </td>
                                 <td>
-                                    <p class="">$ 9.000,00</p>
+                                    <p>$ 9.000,00</p>
                                 </td>
                                 <td>
-                                    <p class="flex justify-center bg-green-200 text-green-700 rounded-full w-[25%]">
-                                        Pago</p>
+                                    <div class="flex justify-center bg-green-200 text-green-700 rounded-full w-fit">
+                                        <p>Pago</p>
+                                    </div>
                                 </td>
                                 <td>
                                     <p>25/01/2025</p>
@@ -207,22 +194,23 @@
                             </tr>
 
                             <tr>
-                                <td class="flex items-center p-2">
-                                    <section class="flex items-center gap-2">
+                                <td class="flex items-center p-4">
+                                    <div class="flex items-center gap-2">
                                         <img class="w-[30px] rounded-full" src="https://github.com/Lucasmsdevfull.png"
                                             alt="Foto do Perfil">
-                                        <div class="">
-                                            <p class="font-bold text-[14px]">Lucas Mendonça</p>
-                                            <p class="text-[10px] text-gray-500">Diretor</p>
+                                        <div>
+                                            <h1 class="font-medium">Lucas Mendonça</h1>
+                                            <p class="text-sm text-gray-400">Diretor</p>
                                         </div>
-                                    </section>
+                                    </div>
                                 </td>
                                 <td>
                                     <p>$ 7.500,00</p>
                                 </td>
-                                <td>
-                                    <p class="flex justify-center bg-red-200 text-red-400 rounded-full w-[45%]">
-                                        Cancelado</p>
+                                <td class="">
+                                    <div class="flex justify-center bg-red-200 text-red-400 rounded-full w-fit">
+                                        <p>Cancelado</p>
+                                    </div>
                                 </td>
                                 <td>
                                     <p>20/01/2025</p>
@@ -230,24 +218,23 @@
                             </tr>
 
                             <tr>
-                                <td class="flex items-center p-2">
-                                    <section class="flex items-center gap-2">
+                                <td class="flex items-center p-4">
+                                    <div class="flex items-center gap-2">
                                         <img class="w-[30px] rounded-full" src="https://github.com/Lucasmsdevfull.png"
                                             alt="Foto do Perfil">
                                         <div class="">
-                                            <p class="font-bold text-[14px]">Lucas Mendonça</p>
-                                            <p class="text-[10px] text-gray-500">Diretor</p>
+                                            <h1 class="font-medium">Lucas Mendonça</h1>
+                                            <p class="text-sm text-gray-400">Diretor</p>
                                         </div>
-                                    </section>
+                                    </div>
                                 </td>
                                 <td>
                                     <p>$ 8.000,00</p>
                                 </td>
                                 <td>
-                                    <p
-                                        class="flex justify-center bg-orange-200 text-orange-400 rounded-full w-[40%]">
-                                        Pendente
-                                    </p>
+                                    <div class="flex justify-center bg-orange-200 text-orange-400 rounded-full w-fit">
+                                        <p>Pendente</p>
+                                    </div>
                                 </td>
                                 <td>
                                     <p>30/01/2025</p>
